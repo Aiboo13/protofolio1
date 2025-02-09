@@ -1,0 +1,1 @@
+document.querySelector('main').classList.add('background')
