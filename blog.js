@@ -11,3 +11,11 @@ document.querySelectorAll(".nav-link").forEach(item => {
     }
   });
 });
+document.querySelectorAll(".nav-link").forEach(item => {
+  item.addEventListener("click", () => {
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+    if (navbarCollapse.classList.contains("show")) {
+      new bootstrap.Collapse(navbarCollapse).hide();
+    }
+  });
+});
