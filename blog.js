@@ -3,6 +3,7 @@ document.querySelectorAll('a').classList.add('.a')
 
 AOS:init();
 
+
 document.querySelectorAll(".nav-link").forEach(item => {
   item.addEventListener("click", () => {
     const navbarCollapse = document.querySelector(".navbar-collapse");
