@@ -25,10 +25,16 @@
     <div class="container-fluid">
       <img src="asset/man.png" alt="profile" class="me-1">
       <h6 class="pt-3 mb-0">MOH MINAS SAHIDDIN</h6>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="ms-auto d-flex align-items-center">
+        <!-- Dark/Light mode switch button -->
+        <button id="theme-toggle" class="btn btn-secondary me-2">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <!-- Navbar links -->
         <div class="navbar-nav">
@@ -37,10 +43,6 @@
           <a class="nav-link active" href="#Name-Skill">Skill</a>
           <a class="nav-link active" href="#Contact" tabindex="-1" aria-disabled="true">Contact</a>
         </div>
-        <!-- Dark/Light mode switch button -->
-        <button id="theme-toggle" class="btn btn-secondary ms-auto">
-          <i class="fas fa-moon"></i>
-        </button>
       </div>
     </div>
   </nav>
