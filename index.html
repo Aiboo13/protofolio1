@@ -4,16 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>minas sahiddin</title>
+  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- AOS CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900&display=swap" rel="stylesheet">
+  <!-- Favicon -->
   <link rel="shortcut icon" href="asset/man.png" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="blog.css">
 </head>
 <body>
-  <!-- nabar atas -->
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <img src="asset/man.png" alt="profile" class="me-1">
@@ -23,16 +30,21 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <!-- if screen small navbar collapses become hamburger -->
+        <!-- Navbar links -->
         <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#Profile">Home</a>
           <a class="nav-link active" href="#Profile">Profile</a>
           <a class="nav-link active" href="#Name-Skill">Skill</a>
           <a class="nav-link active" href="#Contact" tabindex="-1" aria-disabled="true">Contact</a>
         </div>
+        <!-- Dark/Light mode switch button -->
+        <button id="theme-toggle" class="btn btn-secondary ms-auto">
+          <i class="fas fa-moon"></i>
+        </button>
       </div>
     </div>
   </nav>
+  <!-- Main content -->
   <main class="container" id="Profile" data-aos="fade-up">
     <div class="row p-5" data-aos="fade-up">
       <p class="col mx-auto m-auto"><span>Hello,...</span><br> my name is Sahid. I aspire to become a desktop developer and web developer. I am currently studying at <strong>Politeknik Elektronika Negeri Surabaya (PENS)</strong>, majoring in D3 <strong>Informatics Engineering.</strong>
@@ -41,12 +53,12 @@
 
         <strong>I would appreciate any support, feedback, or collaboration</strong> opportunities that can help me grow and become a <strong>better developer.</strong></p>
       <img id="profile" class="col mx-auto m-auto order-sm-1" src="asset/fotowajah-removebg-preview.png" alt="pictures sahid" data-aos="fade-up">
-      <!-- foto profile -->
+      <!-- Profile picture -->
     </div>
     <div class="container" data-aos="fade-up">
       <span id="Name-Skill" class="container text-center" data-aos="fade-up"><h2>Technologies I'm Learning</h2></span>
       <div id="card" class="d-flex flex-column flex-lg-row" data-aos="fade-up">
-        <!-- display flex flex original column alias vertical top bottom then if screen large to row or left right or horizontal -->
+        <!-- Technology cards -->
         <div class="" data-aos="fade-up">
           <img src="asset/html2.png" alt="logo html">
           <p>I am currently learning HTML and have already understood the basics, such as element structure, tag usage, attributes, and how to connect with CSS and JavaScript. Although not yet fully proficient, I continue to practice to improve my understanding and skills in building more presentable and functional web pages.</p>
@@ -76,6 +88,7 @@
       </div>
     </div>
   </main>
+  <!-- Footer -->
   <footer id="Contact" class="">
     <div>
       <p>Contact us</p>
@@ -86,6 +99,7 @@
       </div>
     </div>
   </footer>
+  <!-- Bootstrap and other scripts -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

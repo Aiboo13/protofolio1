@@ -1,4 +1,4 @@
-
+/* Font settings for Nunito Sans */
 .nunito-sans- {
   font-family: "Nunito Sans", serif;
   font-optical-sizing: auto;
@@ -9,29 +9,43 @@
     "YTLC" 500;
 }
 
-body{
+/* Body background color */
+body {
   background-color: #FFFFFF;
+  transition: background-color 0.3s ease-in-out;
 }
-nav{
+
+/* Navbar styles */
+nav {
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #F5F5F5;
+  transition: background-color 0.3s ease-in-out;
 }
-.container{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+/* Container styles */
+.container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 5%;
   font-size: medium;
+  transition: all 0.3s ease-in-out;
 }
-.container span{
+
+/* Span styles inside container */
+.container span {
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 50px;
+  transition: all 0.3s ease-in-out;
 }
-nav img{
+
+/* Navbar image styles */
+nav img {
   height: 30px;
   width: auto;
 }
 
+/* Navbar navigation styles */
 .navbar-nav {
   border-radius: 1rem;
   margin-left: 30%;
@@ -41,40 +55,46 @@ nav img{
   -o-border-radius: 1rem;
 }
 
-
-
-nav h6{
+/* Navbar heading styles */
+nav h6 {
   margin-left: 1%;
 }
 
-
-#profile{
+/* Profile image styles */
+#profile {
   /* border: 1px solid; */
   border-radius: 20rem;
   height: 27rem;
+  transition: all 0.3s ease-in-out;
   -webkit-border-radius: 20rem;
   -moz-border-radius: 20rem;
   -ms-border-radius: 20rem;
   -o-border-radius: 20rem;
 }
 
+/* Background class */
 .background {
   background-color: #FFFFFF;
 }
 
-#card-skil p{
+/* Card skill paragraph styles */
+#card-skil p {
   margin-top: 10rem;
   background-color: bisque;
 }
 
-#card img{
+/* Card image styles */
+#card img {
   width: 100%;
   height: 100px;
   object-fit: contain;
+  transition: transform 0.3s ease-in-out;
 }
-#card div{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  transition: background-color 0.3s ease-in-out;
+
+/* Card div styles */
+#card div {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
   animation: shake 3s infinite ease-in-out;
   padding-top: 0.5rem;
   margin-top: 2rem;
@@ -94,9 +114,11 @@ nav h6{
   -o-transition: 1s;
   -webkit-animation: shake 3s infinite ease-in-out;
 }
-#col2 div{
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  transition: background-color 0.3s ease-in-out;
+
+/* Column 2 div styles */
+#col2 div {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
   animation: shake 3s infinite ease-in-out;
   padding-top: 0.5rem;
   text-align: center;
@@ -115,28 +137,41 @@ nav h6{
   -ms-transition: background-color 0.3s ease-in-out;
   -o-transition: background-color 0.3s ease-in-out;
 }
-#col2 img{
+
+/* Column 2 image styles */
+#col2 img {
   width: 100%;
   height: 100px;
   object-fit: contain;
+  transition: transform 0.3s ease-in-out;
 }
 
-#card div:hover{
-  background-color:gray;
+/* Card hover styles */
+#card div:hover {
+  background-color: gray;
   color: #FFFFFF;
-  img{
-    filter: brightness(120%);
-  }
-}
-#col2 div:hover{
-  background-color:gray;
-  color: #FFFFFF;
-  img{
-    filter: brightness(120%);
-  }
+  transform: scale(1.05);
 }
 
-footer div{
+#card div:hover img {
+  filter: brightness(120%);
+  transform: scale(1.1);
+}
+
+/* Column 2 hover styles */
+#col2 div:hover {
+  background-color: gray;
+  color: #FFFFFF;
+  transform: scale(1.05);
+}
+
+#col2 div:hover img {
+  filter: brightness(120%);
+  transform: scale(1.1);
+}
+
+/* Footer styles */
+footer div {
   margin-top: 2rem;
   background-color: #000000;
   padding: 1rem;
@@ -144,31 +179,116 @@ footer div{
   text-align: center;
 }
 
-.a:hover{
+/* Anchor hover styles */
+.a:hover {
   font-size: larger;
 }
 
+/* Shake animation */
 @keyframes shake {
   0% { transform: translateY(0); }
   50% { transform: translateY(-10px); } /* Naik sedikit */
   100% { transform: translateY(0); }
 }
 
-#Contact img{
+/* Contact image styles */
+#Contact img {
   width: 3.5rem;
   height: auto;
   margin-left: 1rem;
 }
 
-#Contact a{
+/* Contact anchor styles */
+#Contact a {
   text-decoration: none;
   color: #F5F5F5;
 }
 
-#Skill{
+/* Skill section padding */
+#Skill {
   padding-top: 10rem;
 }
 
-footer{
+/* Footer padding */
+footer {
   padding-top: 10rem;
+}
+
+/* Main content bottom separation */
+main {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #E0E0E0;
+  margin-bottom: 2rem;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #121212;
+  color: #E0E0E0;
+}
+
+.dark-mode nav {
+  background-color: #1F1F1F;
+}
+
+.dark-mode .navbar-nav .nav-link {
+  color: #E0E0E0;
+}
+
+.dark-mode .navbar-nav .nav-link:hover {
+  color: #BBBBBB;
+}
+
+.dark-mode footer {
+  background-color: #1F1F1F;
+}
+
+.dark-mode .container {
+  background-color: #1E1E1E;
+  color: #E0E0E0;
+  border-radius: 4rem;
+}
+
+.dark-mode #card div {
+  background-color: #2C2C2C;
+  color: #E0E0E0;
+}
+
+.dark-mode #col2 div {
+  background-color: #2C2C2C;
+  color: #E0E0E0;
+}
+
+.dark-mode #card div:hover {
+  background-color: #3C3C3C;
+}
+
+.dark-mode #col2 div:hover {
+  background-color: #3C3C3C;
+}
+
+.dark-mode #card img,
+.dark-mode #col2 img {
+  filter: brightness(80%);
+}
+
+.dark-mode #theme-toggle {
+  color: #E0E0E0;
+}
+
+.dark-mode main {
+  border-bottom: 1px solid #3C3C3C;
+}
+
+/* Minimalistic button styles */
+#theme-toggle {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#theme-toggle:focus {
+  outline: none;
 }
