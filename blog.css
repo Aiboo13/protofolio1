@@ -18,6 +18,9 @@ nav {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #F5F5F5;
   transition: background-color 0.3s ease-in-out;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Navbar link styles */
@@ -250,4 +253,11 @@ main {
 
 #theme-toggle:focus {
   outline: none;
+}
+
+/* Media queries for wide screens */
+@media (min-width: 992px) {
+  .navbar .ms-auto {
+    margin-left: auto;
+  }
 }
