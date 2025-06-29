@@ -7,6 +7,15 @@
   font-variation-settings: "wdth" 100, "YTLC" 500;
 }
 
+#react-logo {
+  transition: transform 0.5s ease;
+}
+
+#react-logo:hover {
+  transform: rotate(180deg);
+}
+
+
 /* Body background color */
 body {
   background-color: #FFFFFF;
